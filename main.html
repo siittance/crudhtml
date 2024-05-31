@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #f4d6fd">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h1 style="font-size: 30px; text-align: center; ">Добавление блюд (создание меню рестика)</h1>
+    <div style="font-size: 20px; text-align: center;">
+        <label for="restoran">Ресторан:</label>
+        <input style="font-size: 20px" type="text" id="restoran" placeholder="Введите ресторан">
+       <label for="nazvanie">Название:</label>
+        <input style="font-size: 20px" type="text" id="nazvanie" placeholder="Введите название">
+        <label for="cena">Цена (руб.):</label>
+        <input style="font-size: 20px" type="number" id="cena" placeholder="Введите цену">
+        <label for="Sostav">Состав:</label>
+        <input style="font-size: 20px" type="text" id="Sostav" placeholder="Введите состав">
+        <label for="kolvo">Кол-во на складе (ингридиентов):</label>
+        <input style="font-size: 20px" type="number" id="kolvo" placeholder="Введите кол-во">
+        <div style="text-align: center;">
+            <button style="font-size: 20px; margin-top: 50px; background: lightgreen;" onclick="addmenu()">Добавить блюдо в меню</button>
+        </div>
+    </div>
+    <ul class="menu-item" id="menu-list"></ul>
+    <script src="telo.js"></script>
+</body>
+</html>

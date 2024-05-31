@@ -1,0 +1,11 @@
+#menu-list {
+    color: #052f42;
+    background: #f7eff8;
+}
+.menu-item {
+border-top: 1px solid black;
+
+}
+.menu-item button {
+    margin-left:30px;
+}
